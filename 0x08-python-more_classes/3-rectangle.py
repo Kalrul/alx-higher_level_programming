@@ -11,8 +11,8 @@ class Rectangle:
         """Initializes a Rectangle instance.
 
         Args:
-        width: width of the rectangle
-        height: height of the rectangle
+            width: width of the rectangle
+            height: height of the rectangle
         """
         self.width = width
         self.height = height
@@ -22,11 +22,11 @@ class Rectangle:
         of a Rectangle instance, filled with the '#' character."""
         if self.__height == 0 or self.__width == 0:
             return ''
-            rec_str = ''
-            for i in range(self.__height):
-                for j in range(self.__width):
-                    rec_str += '#'
-                rec_str += '\n'
+        rec_str = ''
+        for i in range(self.__height):
+            for j in range(self.__width):
+                rec_str += '#'
+            rec_str += '\n'
             return rec_str[:-1]
 
     @property
