@@ -9,7 +9,6 @@ def number_of_lines(filename=""):
 
     Args:
         - filename: name of the file
-        
     Returns:
         - number of lines
     """
